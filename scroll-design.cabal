@@ -21,6 +21,7 @@ library
       ScrollDesign
   build-depends:
       base ^>=4.16.1.0
+    , blaze-html
   hs-source-dirs:
       lib
 
@@ -31,7 +32,7 @@ executable scroll-design
       Main.hs
   build-depends:
       base ^>=4.16.1.0
-    , blaze-html
+    , scroll-design
   hs-source-dirs:
       app
 
