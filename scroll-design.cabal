@@ -10,6 +10,8 @@ common lang
       Haskell2010
   default-extensions:
       ImportQualifiedPost
+      LambdaCase
+      RecordWildCards
   ghc-options:
       -Wall
       -Wprepositive-qualified-module
@@ -19,9 +21,14 @@ library
       lang
   exposed-modules:
       ScrollDesign
+      ScrollDesign.AST
+      ScrollDesign.Render.HTML
   build-depends:
-      base ^>=4.16.1.0
+      base >= 4.14
     , blaze-html
+    , containers
+  other-extensions:
+      OverloadedStrings
   hs-source-dirs:
       lib
 
@@ -30,9 +37,12 @@ executable scroll-design
       lang
   main-is:
       Main.hs
+  other-modules:
+      CmdLine
   build-depends:
-      base ^>=4.16.1.0
+      base
     , scroll-design
+    , optparse-applicative
   hs-source-dirs:
       app
 

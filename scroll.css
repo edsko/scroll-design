@@ -1,0 +1,25 @@
+body {
+  background: grey;
+  display: flex;
+  justify-content: center;
+}
+
+div.container {
+  position: relative;
+  background: white;
+  width: 300px;
+  height: 1300px;
+  border: solid black 2px;
+}
+
+div.scrollElement {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* debugging */
+  /*
+  border: 1px solid grey;
+  */
+}
