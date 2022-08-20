@@ -4,14 +4,6 @@ body {
   justify-content: center;
 }
 
-div.container {
-  position: relative;
-  background: white;
-  width: 300px;
-  height: 1300px;
-  border: solid black 2px;
-}
-
 div.scrollElement {
   position: absolute;
   display: flex;
@@ -19,7 +11,55 @@ div.scrollElement {
   align-items: center;
 
   /* debugging */
-  /*
   border: 1px solid grey;
-  */
 }
+
+div#scroll {
+  position: relative;
+  background: white;
+  width: 300px;
+  height: 915px;
+  border: solid black 2px;
+}
+
+div#focalPoint {
+  position: relative;
+  left: 128px;
+  top: 262px;
+  font-weight: bold;
+  font-size: 65pt;
+}
+
+div#greenText {
+  position: relative;
+  left: 68px;
+  top: 232px;
+  font-weight: bold;
+  font-size: 50pt;
+  color: #CEDCC7;
+}
+
+div#smallPrint {
+  position: relative;
+  left: 240px;
+  top: 52px;
+  font-size: 7pt;
+}
+
+div#signature {
+  position: relative;
+  left: 90px;
+  top: 770px;
+  font-size: 7pt;
+}
+
+div#stamp {
+  position: relative;
+  left: 92px;
+  top: 820px;
+  width: 11px;
+  height: 11px;
+  background: darkred;
+}
+
+
