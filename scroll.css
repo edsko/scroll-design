@@ -11,21 +11,21 @@ div.scrollElement {
   align-items: center;
 
   /* debugging */
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 div#scroll {
   position: relative;
   background: white;
   width: 300px;
-  height: 915px;
+  height: 1300px;
   border: solid black 2px;
 }
 
 div#focalPoint {
   position: relative;
   left: 128px;
-  top: 262px;
+  top: 300px;
   font-weight: bold;
   font-size: 65pt;
 }
@@ -33,30 +33,50 @@ div#focalPoint {
 div#greenText {
   position: relative;
   left: 68px;
-  top: 232px;
+  top: 400px;
   font-weight: bold;
   font-size: 50pt;
   color: #CEDCC7;
 }
 
-div#smallPrint {
+div#smallPrintTopRight {
   position: relative;
-  left: 240px;
+  left: 150px;
   top: 52px;
+  font-size: 7pt;
+}
+div#smallPrintTopLeft {
+  position: relative;
+  left: 130px;
+  top: 67px;
+  font-size: 7pt;
+}
+
+div#smallPrintBottomRight {
+  position: relative;
+  left: 150px;
+  top: 900px;
+  font-size: 7pt;
+}
+
+div#smallPrintBottomLeft {
+  position: relative;
+  left: 130px;
+  top: 915px;
   font-size: 7pt;
 }
 
 div#signature {
   position: relative;
-  left: 90px;
-  top: 770px;
-  font-size: 7pt;
+  left: 140px;
+  top: 1150px;
+  font-size: 5pt;
 }
 
 div#stamp {
   position: relative;
-  left: 92px;
-  top: 820px;
+  left: 140px;
+  top: 1190px;
   width: 11px;
   height: 11px;
   background: darkred;
