@@ -11,12 +11,12 @@ scroll = Div "scroll" [
     , Div "scrollBody" [
 
         Div "focalPoint" [
-              SetSize 100
+              SetSize 110
             $ Text "我成功的原因"
           ]
 
       , Div "greenText" [
-              SetSize 70
+              SetSize 80
             $ Text "也正在于此"]
 
       , Div "smallPrintTopRight" [
