@@ -17,23 +17,49 @@ div.scrollElement {
 div#scroll {
   position: relative;
   background: white;
-  width: 300px;
-  height: 1300px;
+  width: 350px;
+  height: 1900px;
   border: solid black 2px;
+}
+
+div#fabricTop {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 350px;
+  height: 300px;
+  background: #111144;
+}
+
+div#scrollBody {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 350px;
+  height: 1400px;
+}
+
+div#fabricBottom {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 350px;
+  height: 200px;
+  background: #111144;
 }
 
 div#focalPoint {
   position: relative;
-  left: 128px;
-  top: 300px;
+  left: 160px;
+  top: 350px;
   font-weight: bold;
   font-size: 65pt;
 }
 
 div#greenText {
   position: relative;
-  left: 68px;
-  top: 400px;
+  left: 90px;
+  top: 475px;
   font-weight: bold;
   font-size: 50pt;
   color: #CEDCC7;
@@ -41,45 +67,44 @@ div#greenText {
 
 div#smallPrintTopRight {
   position: relative;
-  left: 150px;
-  top: 52px;
+  left: 175px;
+  top: 50px;
   font-size: 7pt;
 }
+
 div#smallPrintTopLeft {
   position: relative;
-  left: 130px;
-  top: 67px;
+  left: 160px;
+  top: 65px;
   font-size: 7pt;
 }
 
 div#smallPrintBottomRight {
   position: relative;
-  left: 150px;
-  top: 900px;
+  left: 175px;
+  top: 1000px;
   font-size: 7pt;
 }
 
 div#smallPrintBottomLeft {
   position: relative;
-  left: 130px;
-  top: 915px;
+  left: 160px;
+  top: 1015px;
   font-size: 7pt;
 }
 
 div#signature {
   position: relative;
-  left: 140px;
-  top: 1150px;
+  left: 170px;
+  top: 1260px;
   font-size: 5pt;
 }
 
 div#stamp {
   position: relative;
-  left: 140px;
-  top: 1190px;
-  width: 11px;
-  height: 11px;
+  left: 160px;
+  top: 1320px;
+  width: 30px;
+  height: 30px;
   background: darkred;
 }
-
-
